@@ -18,12 +18,38 @@ We'll be creating a personal blog site, similar to
 
 ![demo](https://curriculum-content.s3.amazonaws.com/phase-2/react-hooks-component-props-mini-project/demo.png)
 
-There is some starter code available in `src/components/App.js`. There is also
-some data in `data/blog.js` that is being imported into `App` so you can pass it
-down to the components that need it.
+## How to Run This Project Locally
 
-## Deliverables
+1. **Clone this repo**
+   ```bash
+   git clone https://github.com/walbeck85/react-components-props-vite-lab
+   cd react-components-props-vite-lab
+2. **Install dependencies
+   ```bash
+   npm install
+3. **Start the development server
+   ```bash
+   npm run dev
+4. **Visit the app in your browser:
+  
+   http://localhost:5173
 
+## Screenshot
+Here's a preview of the rendered blog site: http://localhost:5173
+
+Have a look at the components below and draw out a component hierarchy so you
+can determine how to pass data down as props.
+
+## Code Comments & Structure
+Code comments have been added to the following files to explain JSX logic, data flow, and props usage:
+	•	App.jsx
+	•	About.jsx
+	•	Header.jsx
+	•	ArticleList.jsx
+	•	Article.jsx
+
+Refer to each file for component descriptions and prop details.
+## Deliverables 
 Have a look at the components below and draw out a component hierarchy so you
 can determine how to pass data down as props.
 
@@ -92,3 +118,8 @@ If the article takes 30 minutes or longer to read:
 
 There aren't tests for this feature, so you'll have to rely on running the code
 in the browser to see if your implementation works!
+
+## Testing
+To run the test suite using Vitest:
+```bash
+npm test
