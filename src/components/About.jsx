@@ -1,10 +1,8 @@
-// About.jsx
 // This component renders the blog's "About" section.
 // It displays an image and a short description, both passed in as props.
 // - If no `image` prop is provided, it defaults to a placeholder.
-// - The `alt` text for the image is set to "blog logo" for accessibility.
 import React from "react";
-
+// Destructure props with default value for image
 function About({ image = "https://via.placeholder.com/215", about }) {
   return (
     <aside>
@@ -13,5 +11,5 @@ function About({ image = "https://via.placeholder.com/215", about }) {
     </aside>
   );
 }
-
+// Export the About component as the default export
 export default About;
