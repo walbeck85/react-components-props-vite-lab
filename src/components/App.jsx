@@ -1,4 +1,3 @@
-// App.jsx
 // This is the root component of the blog site.
 // It renders the Header, About, and ArticleList components.
 // Blog data is imported from blogData and passed down as props.
